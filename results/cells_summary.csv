@@ -1,0 +1,7 @@
+eval,model,lowest_effort,effect_lowest,effect_lowest_ci_lo,effect_lowest_ci_hi,n_lowest,effect_high,drop,drop_ci_lo,drop_ci_hi,gmean2_high,gmean2_ci_lo,gmean2_ci_hi,n_high_gmean2
+wmdp_sandbagging,glm-4.7,none,0.149,0.019,0.279,221,0.073,0.076,-0.103,0.255,0.852,0.711,0.9,231
+wmdp_sandbagging,gpt-oss-120b,low,0.11,-0.019,0.24,225,0.095,0.015,-0.187,0.218,0.948,0.827,0.989,117
+gpqa,glm-4.7,none,0.164,0.046,0.283,261,0.114,0.05,-0.118,0.218,0.491,0.058,0.965,246
+gpqa,gpt-oss-120b,low,0.14,0.025,0.255,286,0.121,0.019,-0.161,0.198,0.972,0.598,0.995,177
+daft,glm-4.7,none,0.15,0.038,0.262,240,0.0,0.15,0.038,0.262,,,,18
+daft,gpt-oss-120b,low,0.4,0.213,0.587,90,0.111,0.289,0.052,0.525,0.784,0.531,1.0,29

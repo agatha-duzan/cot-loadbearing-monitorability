@@ -1,0 +1,8 @@
+# Python 3.11. Versions below are what the study was run with; newer minors are fine.
+numpy>=1.26,<2
+pandas>=2.1
+matplotlib>=3.8
+tqdm>=4.66          # used by the vendored OpenAI metric (data/metric/)
+
+# No API SDKs needed: the harness calls OpenRouter/Together over plain HTTP (stdlib urllib).
+# .env is loaded by a small parser in exp/common.py (no python-dotenv dependency).

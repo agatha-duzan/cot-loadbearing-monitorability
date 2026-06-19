@@ -1,0 +1,28 @@
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+*.key
+secrets/
+
+# Claude Code working notes — references local key-file locations; keep out of the
+# public repo (sanitize first if you want to publish the API-usage conventions).
+CLAUDE.md
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Eval data & raw model outputs — NOT redistributed (benchmark-contamination /
+# dataset-hygiene; see README "Data & results policy"). These are regenerable:
+#   data/intervention/  -> python exp/prepare_data.py --src <monitorability-evals clone>
+#   results/*.jsonl      -> re-run the harness (exp/run_rollouts.py, exp/run_monitor.py)
+data/intervention/
+results/*.jsonl
+results/*.log
+
+# Committed results are derived/aggregate only: results/figures/, results/*.txt,
+# results/cells_summary.csv (no raw questions or model CoT).
