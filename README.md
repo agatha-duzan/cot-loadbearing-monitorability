@@ -106,12 +106,3 @@ committed** — a dataset-hygiene decision, not a size one:
 **What *is* committed** tells the whole story with no raw content: the figure, the text reports,
 and `results/cells_summary.csv` (per-cell effects, drops, g-mean², CIs, and sample sizes).
 
-## Attribution & licensing
-
-- **`monitorability-evals`** (Apache-2.0, OpenAI): the intervention datasets, monitor prompts, and
-  the `g-mean²` metric (`data/metric/intervention_gmean_metric.py`, vendored). See that repo's
-  `LICENSE.txt` and `DATASET_ATTRIBUTION.md`.
-- Underlying datasets: **GPQA**, **WMDP**, and **DAFT-Math** (competition problems — IMO shortlist,
-  HMMT, PuMAC, etc.; credit Trang, Von Arx, Kunnavakkam). Used here under their respective terms,
-  for non-commercial defensive-research evaluation only.
-- Patterns reused from the author's prior repo `cot-monitor-stress-test` are noted in REPORT §10.
